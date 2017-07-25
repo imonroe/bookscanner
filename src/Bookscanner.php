@@ -90,6 +90,10 @@ class Bookscanner extends Model
 		return $output;
 	}
 
+	/*
+		Validation functions below based on:
+		https://stackoverflow.com/questions/14095778/regex-differentiating-between-isbn-10-and-isbn-13
+	*/
 	static function findIsbn($str){
 	    $regex = '/\b(?:ISBN(?:: ?| ))?((?:97[89])?\d{9}[\dx])\b/i';
 	    if (preg_match($regex, str_replace('-', '', $str), $matches)) {
