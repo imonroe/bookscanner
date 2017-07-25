@@ -2,9 +2,6 @@
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
-[![Build Status][ico-travis]][link-travis]
-[![Coverage Status][ico-scrutinizer]][link-scrutinizer]
-[![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
 Give Bookscanner a barcode or ISBN number, look it up via the OpenLibrary api (http://openlibrary.org/), and then return you a nice PHP array with relevant details.
@@ -68,9 +65,6 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 
 [ico-version]: https://img.shields.io/packagist/v/imonroe/bookscanner.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/imonroe/bookscanner/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/imonroe/bookscanner.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/imonroe/bookscanner.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/imonroe/bookscanner.svg?style=flat-square
 
 [link-packagist]: https://packagist.org/packages/imonroe/bookscanner
