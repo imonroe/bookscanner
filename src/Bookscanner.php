@@ -1,7 +1,6 @@
 <?php
 namespace imonroe\bookscanner;
 use Exception;
-use Illuminate\Database\Eloquent\Model;
 
 class Bookscanner extends Model
 {
