@@ -3,7 +3,7 @@ namespace imonroe\bookscanner;
 
 use Exception;
 
-class Bookscanner extends Model
+class Bookscanner
 {
 
     static function get_isbn_data($isbn_string)
